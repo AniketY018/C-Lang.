@@ -12,15 +12,13 @@ int main ()
 
     for (int i=0; i<5; i++)
     {
-        *res = *ptr;
+        c[i]= *ptr;
         ptr++;
-        res++;
     }
 
-    for (int i=0; i<5; i++)
+    for (int j=0; j<5; j++)
     {
-        *ptr = *ptr2;
-        res++;
+      c[5 + j] = *ptr2;
         ptr2++;
     }
 
