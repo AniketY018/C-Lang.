@@ -1,4 +1,5 @@
-// How poniter goes forward and comes backward 
+// How poniter goes forward and comes backward
+
 #include<stdio.h>
 int main ()
 
